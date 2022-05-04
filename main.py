@@ -157,7 +157,6 @@ def obslugaStanow():
         
         if not sprawdzCzyTimerAktywny(tim1): stan = 2 
         elif alarm:
-            tim1 = ustawTimerNaSekundy(CzasOpoznienia)
             stan=3
 
     elif stan == 2:
